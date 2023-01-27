@@ -6,6 +6,9 @@ h1,p{
     color: #FCDEBE
 }
 
-h2, li{
+h2,h3, li{
     color: #E3E3C4
+}
+h1{
+    display: inline;
 }
