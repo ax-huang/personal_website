@@ -2,13 +2,14 @@ body{
     background-color: #3A445D
 }
 
-h1,p{
+li,p{
     color: #FCDEBE
 }
 
-h2,h3, li{
+h1,h2,h3{
     color: #E3E3C4
 }
+
 h1{
     display: inline;
 }
