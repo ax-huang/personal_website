@@ -13,3 +13,21 @@ h1,h2,h3{
 h1{
     display: inline;
 }
+
+a:link{
+    color:#FEDEBE
+}
+
+a:visited{
+    color: white;
+}
+
+nav{
+    text-align: center;
+    background-color: #373C58
+}
+
+li{
+    list-style-type: none;
+}
+
