@@ -6,12 +6,12 @@ li,p{
     color: #FCDEBE
 }
 
-h1,h2,h3{
+h1,h2{
     color: #E3E3C4
 }
 
 h1{
-    display: inline;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a:link{
