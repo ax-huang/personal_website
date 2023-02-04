@@ -31,3 +31,7 @@ li{
     list-style-type: none;
 }
 
+#headingInline{
+    display: inline;
+}
+
