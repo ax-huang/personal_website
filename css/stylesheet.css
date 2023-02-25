@@ -34,6 +34,7 @@ li{
 
 #displayBlock > li{
     display: block;
+    padding: 0.5em;
 }
 
 #headingSpaceSchool{
