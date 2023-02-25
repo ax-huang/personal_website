@@ -32,6 +32,10 @@ li{
     margin-right: 0.5em;
 }
 
+#displayBlock > li{
+    display: block;
+}
+
 #headingInline{
     margin-left: 1.5em;
 }
