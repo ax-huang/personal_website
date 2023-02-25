@@ -22,16 +22,25 @@ a:visited{
     color: white;
 }
 
-nav{
-    text-align: center;
-    background-color: #373C58
+header{
+    background-color: #373C58 ;
 }
 
 li{
     list-style-type: none;
+    display: inline-flex;
+    margin-right: 10px;
 }
 
 #headingInline{
     display: inline;
+}
+
+.headerFlexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
 }
 
