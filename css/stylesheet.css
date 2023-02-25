@@ -24,7 +24,6 @@ a:visited{
 
 header, footer{
     background-color: #373C58 ;
-    text-align: center;
 }
 
 li{
@@ -61,4 +60,8 @@ li{
     justify-content: center;
     align-items: center;
     margin-top: 4em;
+}
+
+footer{
+    text-align: center;
 }
