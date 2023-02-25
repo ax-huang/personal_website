@@ -36,8 +36,12 @@ li{
     display: block;
 }
 
-#headingInline{
+#headingSpaceSchool{
     margin-left: 1.5em;
+}
+
+#headingSpaceCourses{
+    margin-left: 1.8em;
 }
 
 .headerFlexContainer{
