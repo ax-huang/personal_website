@@ -32,9 +32,18 @@ li{
     margin-right: 0.5em;
 }
 
-#displayBlock > li{
+.displayBlock > li{
     display: block;
     padding: 0.5em;
+}
+
+.displayBlock > hr, .displayBlock > p{
+    margin-left: 0.5em;
+}
+
+#marginZero{
+    padding: 0;
+    margin-left:0.5em;
 }
 
 #headingSpaceSchool{
@@ -74,3 +83,15 @@ li{
 footer{
     text-align: center;
 }
+
+@media screen and (min-width:600px) {
+
+    .displayBlock > li{
+        display: inline;
+    }
+
+
+    
+}
+
+
