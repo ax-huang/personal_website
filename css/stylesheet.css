@@ -32,26 +32,18 @@ li{
     margin-right: 0.5em;
 }
 
-.displayBlock > li{
+ .displayBlock > li{
     display: block;
     padding: 0.5em;
 }
 
-.displayBlock > hr, .displayBlock > p{
-    margin-left: 0.5em;
-}
-
-#marginZero{
-    padding: 0;
-    margin-left:0.5em;
-}
 
 #headingSpaceSchool{
     margin-left: 1.5em;
 }
 
 #headingSpaceCourses{
-    margin-left: 1.8em;
+    margin-left: 1.3em;
 }
 
 .headerFlexContainer{
@@ -84,14 +76,46 @@ footer{
     text-align: center;
 }
 
-@media screen and (min-width:600px) {
+#cit1620,#cit1515, #math1310, #math1310 ~ div{
+    padding-top: 1em;
+}
 
+ .courseDetails {
+    border-bottom: 2px solid #FCDEBE;
+    padding-top: 1em;
+ }
+
+ @media  screen and (min-width:600px) {
+
+     #courseGrid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #cit1515{
+        grid-row: 2;
+    }
+
+    #math1310{
+        grid-row: 3;
+    }
+
+    .term{
+        margin-top: 5em;
+    }
+   
     .displayBlock > li{
         display: inline;
     }
 
-
+    #cit1620, #cit1515 {
+        border-bottom: 2px solid #FCDEBE;
+    }
     
-}
+     #headingSpaceCourses{
+        margin-left: 2.5em;
+    } 
+ }
 
 
